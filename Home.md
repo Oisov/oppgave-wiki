@@ -12,7 +12,7 @@ width="480">
 </a>
 </p>
 
-[[/images/startside/LKK_small_logo.png|LKK's logo med lenke til oppgavesammlingen]]
+[[[/images/startside/LKK_small_logo.png|LKK's logo med lenke til oppgavesammlingen]]](http://oppgaver.kidsakoder.no/)
 
 
 # Introduksjon 
@@ -62,4 +62,5 @@ Mauris laoreet gravida velit, in gravida ex ornare et. Sed nec porta neque.
 Mauris ultricies velit et ligula efficitur, a finibus est bibendum. Cras
 consequat molestie arcu in placerat. Aenean aliquet mi libero, at rutrum risus
 tincidunt nec. Phasellus vel tortor ac nulla sagittis sodales in a tellus. In
-aliquam nulla sed nulla placerat faucibus.
+taliquam nulla sed nulla placerat faucibus.
+
