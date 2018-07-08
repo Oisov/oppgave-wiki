@@ -62,7 +62,8 @@ et _repo_, kort for _repository_.
 
 - [ ] Du trenger en [skrivebordsklient av Git](https://desktop.github.com/).
 
-- [ ] Du trenger en editor å jobbe i, for eksempel [Atom](https://atom.io/) (for en grunndigere innføring se [[introduksjon til Atom]]).
+- [ ] Du trenger en editor å jobbe i, for eksempel [Atom](https://atom.io/) (for
+      en grunndigere innføring se [[introduksjon til Atom]]).
 
 Gå til [Kodeklubbens GitHub](https://github.com/kodeklubben/oppgaver), og klikk
 `fork` oppe i høyre hjørne. Da får du laget din egen kopi som du finner igjen på
@@ -147,3 +148,4 @@ til du finner en grønn knapp med `Create pull request` igjen og trykk på den.
 Du har sendt en PR til _repo_-et! Nå er det bare å vente til en administrator
 kommenterer eller godkjenner. Om du ikke har slått det av får du e-postvarsel,
 så du trenger ikke følge med selv.
+
