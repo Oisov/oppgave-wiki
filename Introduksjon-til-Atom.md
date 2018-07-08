@@ -15,6 +15,7 @@ Atom er relativt enkelt å komme i gang med! Hva venter du på? La oss sette i
 gang.
 
 [[/images/atom/atom-faktisk-jobbing.png|Bilde av atom i bruk]]
+
 ## Installasjon
 
 ### Windows
