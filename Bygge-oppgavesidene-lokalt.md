@@ -9,7 +9,7 @@ se hvordan oppgaven vil se ut for barna. Det er fort gjort å gjøre en liten fe
 når en lager lister , skriver kodeblokker, eller bruker noen av kodeklubbens
 egendefinerte titler.
 
-[[/images/localHost.png|Viser local host, spacemacs, og kodeklubbens nettside]]
+[[/images/kodeklubb-byggeren/localHost.png|Viser local host, spacemacs, og kodeklubbens nettside]]
 
 ## Komme igang
 
