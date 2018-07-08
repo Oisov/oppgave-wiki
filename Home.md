@@ -1,20 +1,20 @@
 <p align="center">
 <a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/wiki-LKK/blob/master/Startside/LKK_logo.png" 
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="/images/startside/LKK_logo.png" 
 width="480">
 </a>
 </p>
 
 <p align="center">
 <a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/wiki-LKK/blob/master/Startside/kodeklubben.png" 
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="/images/startside/kodeklubben.png" 
 width="480">
 </a>
 </p>
 
 <p align="center">
 <a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/wiki-LKK/blob/master/Startside/LKK_small_logo.png" 
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="/images/startside/LKK_small_logo.png" 
 height="200">
 </a>
 </p>

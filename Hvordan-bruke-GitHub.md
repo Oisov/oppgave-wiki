@@ -1,5 +1,5 @@
 
-![Github sin logo](https://github.com/Oisov/wiki-LKK/blob/master/Git/github-logo.png?raw=true)
+![Github sin logo](/images/Git/github-logo.png?raw=true)
 
 # Hvordan bruke GitHub?
 
@@ -48,7 +48,7 @@ et _repo_, kort for _repository_.
    endringene hun har gjort lokalt blir _merge_-t med _repo_-et.
 
    ![Oversikt over arbeidsflyt med
-   Git](https://github.com/Oisov/wiki-LKK/blob/master/Git/git_workflow.png)
+   Git](/images/Git/git_workflow.png)
 
 8. Alle kan se og kommentere på _PR_-en, før en administrator kan _merge_ filene.
 
@@ -68,13 +68,13 @@ Gå til [Kodeklubbens GitHub](https://github.com/kodeklubben/oppgaver), og klikk
 `fork` oppe i høyre hjørne. Da får du laget din egen kopi som du finner igjen på
 din egen github-side.
 
-![Skjermdump som viser hvor `fork`-knappen er](https://github.com/Oisov/wiki-LKK/blob/master/Git/create_fork.png)
+![Skjermdump som viser hvor `fork`-knappen er](/images/Git/create_fork.png)
 
 Åpne GitHub Desktop og logg inn. Klikk `clone repository` og velg oppgave-repoet
 du kopierte fra Kodeklubben. Da laster du ned en kopi av denne til datamaskinen
 din. Det er denne vi skal jobbe i videre. Merk deg hvor denne blir lagret!
 
-![Skjermdump som viser hvordan `clone repository` ser ut](https://github.com/Oisov/wiki-LKK/blob/master/Git/clone_repository.png)
+![Skjermdump som viser hvordan `clone repository` ser ut](/images/Git/clone_repository.png)
 
 ## Arbeidsflyt
 

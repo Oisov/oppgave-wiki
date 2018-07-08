@@ -1,5 +1,5 @@
 <p align="center">
-<img border="0" alt="Dropbox logo" src="https://github.com/Oisov/wiki-LKK/blob/master/Dropbox/dropbox_logo_2.png"
+<img border="0" alt="Dropbox logo" src="/images/dropbox/dropbox_logo_2.png"
 width="480">
 </p>
 
@@ -26,7 +26,7 @@ Samle alt du ønsker å laste opp i en mappe på datamaskinen din. Hvis du vil d
 
 <p align="center">
 <a href="https://www.dropbox.com/request/R81Bf7uofzjWctCygHlb">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/wiki-LKK/blob/master/Dropbox/dropbox-opplasting.png" >
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="/images/dropbox/dropbox-opplasting.png" >
 </a>
 </p>
 
