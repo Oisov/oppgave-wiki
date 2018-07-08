@@ -7,7 +7,7 @@
 For å laste opp oppgaver til [kidsakoder.no](http://oppgaver.kidsakoder.no)
 bruker vi GitHub, ofte bare kalt Git. Dette er programvare som gir flere brukere
 muligheten til å jobbe i et prosjekt samtidig, laste opp hver sine deler, og så
-sette alt sammen til ett stort prosjekt.
+sette alt sammen til ett felles prosjekt.
 
 Vi kan bruke ordtaket "jo flere kokker jo mer søl" når vi jobber med en side som
 Kodeklubbens nettside. Tenk på nettsiden som en stor kake som mange flittige
