@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://atom.io/">
-<img border="0" alt="W3Schools" src="/images/atom/Atom_icon.svg" width="480">
+<img border="0" alt="W3Schools" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/atom/Atom_icon.svg" width="480">
 </a>
 </p>
 
@@ -14,8 +14,7 @@ tilbyr sømløs integrasjon med Git og Markdown. Det aller beste er imidlertid a
 Atom er relativt enkelt å komme i gang med! Hva venter du på? La oss sette i
 gang.
 
-![Bilde av atom i bruk](/images/atom/atom-faktisk-jobbing.png)
-
+[[/images/atom/atom-faktisk-jobbing.png|Bilde av atom i bruk]]
 ## Installasjon
 
 ### Windows
@@ -63,8 +62,7 @@ eksempel
 
 Første gang du åpner Atom vil det se ut som dette:
 
-![Bilde av startskjermen til Atom](/images/atom/atom-intro.png)
-
+[[/images/atom/atom-intro.png|Bilde av startskjermen til Atom]]
 Her har du to faner med en rekke nyttige knapper til høyre. Det går helt fint å
 bruke Atom uten å måtte lære seg noen rare hurtigtaster. Likevel vil jeg på det
 sterkeste anbefale deg å bli kjent med hurtigtasten `ctrl + shift + P`. Denne
@@ -72,16 +70,14 @@ hurtigstasten åpner opp `Atoms Palette`, som er en meny hvor du kan søke etter
 alt som finnes i Atom. Dersom du lurer på hvordan noe gjøres i Atom bør det
 første steget alltid være å søke i denne menyen.
 
-![Bilde av Atoms
-Palette](/images/atom/atom-quick-menu.png)
+[[/images/atom/atom-quick-menu.png|Bilde av Atoms Palette]]
 
 ## Installasjon av pakker
 
 Det første vi må gjøre er å installere _git_-pakken og en enkel _terminal_. Ved
 å trykke på "Install a package" i bildet ovenfor åpner følgende meny seg:
 
-![Bilde som viser hvordan du kan installere pakker i
-Atom](/images/atom/atom-package.png)
+[[/images/atom/atom-package.png|Bilde som viser hvordan du kan installere pakker i Atom]]
 
 Ved å trykke på "Open installer" kan vi installere de pakkene som trengs.
 Alternativt kunne vi ha brukt hurtigtasten `ctrl + ,` for å navigere direkte til
@@ -92,17 +88,14 @@ søke etter `packages`. Vi trenger pakkene
 
 - Platformio-ide-terminal
 
-![Bilde av installasjonsvinduet for
-git-plus-pakken](/images/atom/atom-git-plus.png)
+[[/images/atom/atom-git-plus.png|Bilde av installasjonsvinduet for git-plus-pakken]]
 
-![Bilde av installasjonsvinduet for
-atom-terminalen](/images/atom/atom-terminal.png)
+[[/images/atom/atom-terminal.png|Bilde av installasjonsvinduet for atom-terminalen]]
 
 For å bruke terminalen må du bare trykke på `+`-ikonet som befinner seg nede i
 venstre hjørne:
 
-![Bilde som viser hvordan Atom ser ut med terminalen
-installert](/images/atom/atom-terminal-2.png)
+[[/images/atom/atom-terminal-2.png|Bilde som viser hvordan Atom ser ut med terminalen installert]]
 
 ### Vårt første prosjekt
 
@@ -117,19 +110,19 @@ neste steg. Det finnes flere måter å gjøre dette uten å måtte forlate Atom.
 Vi kan bruke hurtigmenyen `ctrl + shift + P` og søke etter `clone`.
 Da vil du få opp følgende meny
 
-![Bilde av vinduet for å klone et repo til datamaskinen
-din](/images/atom/atom-clone.png)
+[[/images/atom/atom-clone.png|Bilde av vinduet for å klone et repo til datamaskinen din]]
 
 Hvor du bytter ut BRUKERNAVN med brukernavnet ditt på GitHub. Du kan selvsagt
 bestemme selv hvor du vil lagre prosjektet ditt.
 
-Alternativt kan vi bruke terminalen vi nettopp installerte. Pass på at du er navigert til mappen du ønsker å lagre prosjektet i. Hvis ikke må du skrive `cd MAPPEPLASSERING`. Åpne terminalen ved å trykke på `+` nede til venstre. Skriv inn
+Alternativt kan vi bruke terminalen vi nettopp installerte. Pass på at du er
+navigert til mappen du ønsker å lagre prosjektet i. Hvis ikke må du skrive `cd
+MAPPEPLASSERING`. Åpne terminalen ved å trykke på `+` nede til venstre. Skriv
+inn
 
     git clone git@github.com:BRUKERNAVN/oppgaver.git
 
-![Bilde som viser hvordan terminalen kan brukes til å klone et repo til
-datamskinen
-din](/images/atom/atom-clone-terminal.png)
+[[/images/atom/atom-clone-terminal.png|Bilde som viser hvordan terminalen kan brukes til å klone et repo til datamskinen din]]
 
 Obs! Det kan være du får noen feilmeldinger enten at du ikke har riktige
 rettigheter eller at du ikke har valgt Git-brukernavn og epost. For å løse disse
@@ -144,15 +137,13 @@ som et nytt prosjekt. Her kan vi velge en av disse to fremgangsmåtene:
 
 - velge `Add Project Folder` fra `fil`-menyen.
 
-![Skjermbilde av Atom i
-bruk](/images/atom/atom-faktisk-jobbing.png)
+[[/images/atom/atom-faktisk-jobbing.png|Skjermbilde av Atom i bruk]]
 
 Bildet over viser en fil under behandling i prosjektet. Før vi gjør endringer i
 en fil bør vi bytte til en ny _branch_, eller gren, slik at arbeidet er mer
 oversiktlig. Igjen så kan dette gjøres enkelt fra hurtigmenyen
 
-![Bilde som viser søk etter "branch" i hurtigmenyen i
-Atom](/images/atom/atom-branch-git.png)
+[[/images/atom/atom-branch-git.png|Bilde som viser søk etter "branch" i hurtigmenyen i Atom]]
 
 eller ved å åpne terminalen og skrive
 
@@ -174,23 +165,20 @@ at du alltid ved hvilke linjer som er for lange. På bildet under ser du at linj
 28 strekker seg over 3 linjer, og dette forteller Atom deg med prikkene i stedet
 for linjenumre til venstre.
 
-![Bilde av en for lang linje med tekst i
-Atom](/images/atom/atom-long-line.png)
+[[/images/atom/atom-long-line.png|Bilde av en for lang linje med tekst i Atom]]
 
 Heldigvis har Atom en pakke kalt `autoflow`. Det eneste formålet til denne
 pakken er å bryte lange linjer. Den er installert som standard, flaks! For å
 formatere et langt avsnitt er det nok å ha markøren inne i avsnittet og trykke
 `ctrl + shift + Q`.
 
-![Bilde av en lang tekst i Atom som er delt på flere
-linjer](/images/atom/atom-long-line-fixed.png)
+[[/images/atom/atom-long-line-fixed.png|Bilde av en lang tekst i Atom som er delt på flere linjer]]
 
 En annen hurtigtast du gjerne kan gjøre deg kjent med er `ctrl + shift + T`. Den
 gjør at du kan søke gjennom prosjektet ditt etter relevante filer, i stedet for
 å måtte navigere gjennom mappehierarkiet til venstre.
 
-![Bilde av søkefunksjonen i
-Atom](/images/atom/atom-quick-search.png)
+[[/images/atom/atom-quick-search.png|Bilde av søkefunksjonen i Atom]]
 
 En annen hurtigtast som er nyttig er `ctrl + shift + M`. Den gjør at du får opp
 en ny fane der du ser hvordan Markdown-filen din ser ut i sanntid.
@@ -202,23 +190,19 @@ eller bruke noen av de som ligger inne fra før. For å endre tema kan vi enten
 søke etter `themes` i hurtigmenyen eller direkte bruke `ctrl + ,` for å hoppe
 til innstillinger. Menyen ser slik ut
 
-![Bilde av temainnstillinger i
-Atom](/images/atom/atom-themes.png)
+[[/images/atom/atom-themes.png|Bilde av temainnstillinger i Atom]]
 
 **UI:** _Perfect Dark_, **Syntax:** _Perfect Dark_
 
-![Bilde av Atom med Perfect
-dark-temaet](/images/atom/atom-jobbing-perfect-dark.png)
+[[/images/atom/atom-jobbing-perfect-dark.png|Bilde av Atom med Perfect dark-temaet]]
 
 **UI:** _Perfect Dark_, **Syntax:** _Solarized Dark_
 
-![Bilde av Atom med Solarized
-dark-temaet](/images/atom/atom-jobbing-perfect-dark-solarized.png)
+[[/images/atom/atom-jobbing-perfect-dark-solarized.png|Bilde av Atom med Solarized dark-temaet]]
 
 Det er og mulig å laste ned egne temaer fra nettet, for eksempel Dracula-temaet
 som er vist under.
 
 **UI:** _Perfect Dark_, **Syntax:** _Dracula_
 
-![Bilde av Atom med
-Dracula-temaet](/images/atom/atom-jobbing-perfect-dark-dracula.png)
+[[/images/atom/atom-jobbing-perfect-dark-dracula.png|Bilde av Atom med Dracula-temaet]]
