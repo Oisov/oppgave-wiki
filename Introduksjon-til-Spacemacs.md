@@ -1,6 +1,6 @@
 <p align="center">
 <a href="http://spacemacs.org/">
-<img border="0" alt="W3Schools" src="https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/logo.svg" width="300" height="300">
+<img border="0" alt="W3Schools" src="/images/spacemacs/logo.svg" width="300" height="300">
 </a>
 </p>
 
@@ -44,7 +44,7 @@ virker veldig uoverkommelig siden det favner så bredt.
 
 _Spacemacs tar sikte på å kombinere det beste fra emacs og vim til en_
 
-![Bilde av Python i Spacemacs](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/spacemacs-python.png)
+![Bilde av Python i Spacemacs](/images/spacemacs/spacemacs-python.png)
 
 ## Fordeler
 
@@ -155,7 +155,7 @@ introduksjonen til ulike modes, samt introduksjonen til grunnlegende bevegelser.
 
 Under følger et lite jukseark det kan være greit å ha på pulten de første dagene.
 
-![Jukseark til vim](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/vimCheating.png)
+![Jukseark til vim](/images/spacemacs/vimCheating.png)
 
 ## Git og Markdown
 
@@ -168,7 +168,7 @@ en dotfil, og åpnes med
 Huskeregelen er **f**ile **e**macs **d**otfile. Deretter kan vi legge til
 `markdown`, `git` og `shell` til konfigurasjonslagene våre
 
-![oppgaver](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/config-layers.png)
+![oppgaver](/images/spacemacs/config-layers.png)
 
 Dette er bare en sammling av mindre nyttige pakker. Så må vi lagre endringene,
 enten ved å bruke `:w RET` (Hvor `RET` er forkortelsen for Return), eller `SPC f
@@ -183,7 +183,7 @@ bruke  `SPC m c p`. Er du allerede på nivået hvor du bruker Spacemacs er det n
 langt mer naturlig å sette opp en lokal server og bygge kodeklubbens nettsider
 derfra. Se introduksjonen til Git hvordan du gjør dette
 
-![Bygging av nettsidene via local host](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/localHost.png)
+![Bygging av nettsidene via local host](/images/spacemacs/localHost.png)
 
 Her er et bilde av at jeg arbeider med en ny oppgave i Spacemacs. Til venstre så
 vises den lokale versjonen av kodeklubbens nettsider i Chrome, mens nede venstre
@@ -194,7 +194,7 @@ Git](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/markdown).
 
 ## Git
 
-![](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/magit.png)
+![](/images/spacemacs/magit.png)
 
 Noe av det mest fantastiske med å bruke Spacemacs er integrasjonen med Git.
 Konfigurasjonslaget `git` inneholder bla pakken [magit](https://magit.vc/about/)
@@ -205,7 +205,7 @@ laget på er ved å åpne menyen med
 
 (**g**it **m**enu).
 
-![Git menu in Spacemacs](https://github.com/Oisov/wiki-LKK/blob/master/Spacemacs/git-menu.png)
+![Git menu in Spacemacs](/images/spacemacs/git-menu.png)
 
 Fra denne menyen kan en gjøre alt en trenger med git. Noen av de mest nyttige
 kommandoene er listet under

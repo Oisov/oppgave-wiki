@@ -1,3 +1,5 @@
+
+
 # Den gode oppgaven
 
 Når du skriver en oppgave som skal legges ut på oppgavesidene må du følge denne
@@ -10,6 +12,7 @@ klasse kan jobbe med oppgaven.
 
 Når du har skrevet ferdig en oppgave med riktig formatering kan du sende den inn
 til oppgaverepoet på Github. Se [[Hvordan bruke GitHub]]
+
 ## YAML-header
 
 For å markere YAML-headeren bruker vi `---` før og etter. I YAML-headeren skal
@@ -102,6 +105,4 @@ møter motstand i oppgaven, så kan du skrive hvordan du løste det.
 Dessuten ønsker vi å informere om eventuelle kompetansemål i læreplanene som kan
 oppfylles ved hjelp av hver enkelt oppgave. Det skrives i lærerveiledningen. Se
 [[Hvordan skrive en lærerveiledning]] for mer informasjon.
-
-
 

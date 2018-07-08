@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://atom.io/">
-<img border="0" alt="W3Schools" src="https://github.com/Oisov/wiki-LKK/blob/master/Atom/Atom_icon.svg" width="480">
+<img border="0" alt="W3Schools" src="/images/atom/Atom_icon.svg" width="480">
 </a>
 </p>
 
@@ -14,7 +14,7 @@ tilbyr sømløs integrasjon med Git og Markdown. Det aller beste er imidlertid a
 Atom er relativt enkelt å komme i gang med! Hva venter du på? La oss sette i
 gang.
 
-![Bilde av atom i bruk](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-faktisk-jobbing.png)
+![Bilde av atom i bruk](/images/atom/atom-faktisk-jobbing.png)
 
 ## Installasjon
 
@@ -63,7 +63,7 @@ eksempel
 
 Første gang du åpner Atom vil det se ut som dette:
 
-![Bilde av startskjermen til Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-intro.png)
+![Bilde av startskjermen til Atom](/images/atom/atom-intro.png)
 
 Her har du to faner med en rekke nyttige knapper til høyre. Det går helt fint å
 bruke Atom uten å måtte lære seg noen rare hurtigtaster. Likevel vil jeg på det
@@ -73,7 +73,7 @@ alt som finnes i Atom. Dersom du lurer på hvordan noe gjøres i Atom bør det
 første steget alltid være å søke i denne menyen.
 
 ![Bilde av Atoms
-Palette](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-quick-menu.png)
+Palette](/images/atom/atom-quick-menu.png)
 
 ## Installasjon av pakker
 
@@ -81,7 +81,7 @@ Det første vi må gjøre er å installere _git_-pakken og en enkel _terminal_. 
 å trykke på "Install a package" i bildet ovenfor åpner følgende meny seg:
 
 ![Bilde som viser hvordan du kan installere pakker i
-Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-package.png)
+Atom](/images/atom/atom-package.png)
 
 Ved å trykke på "Open installer" kan vi installere de pakkene som trengs.
 Alternativt kunne vi ha brukt hurtigtasten `ctrl + ,` for å navigere direkte til
@@ -93,16 +93,16 @@ søke etter `packages`. Vi trenger pakkene
 - Platformio-ide-terminal
 
 ![Bilde av installasjonsvinduet for
-git-plus-pakken](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-git-plus.png)
+git-plus-pakken](/images/atom/atom-git-plus.png)
 
 ![Bilde av installasjonsvinduet for
-atom-terminalen](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-terminal.png)
+atom-terminalen](/images/atom/atom-terminal.png)
 
 For å bruke terminalen må du bare trykke på `+`-ikonet som befinner seg nede i
 venstre hjørne:
 
 ![Bilde som viser hvordan Atom ser ut med terminalen
-installert](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-terminal-2.png)
+installert](/images/atom/atom-terminal-2.png)
 
 ### Vårt første prosjekt
 
@@ -118,7 +118,7 @@ Vi kan bruke hurtigmenyen `ctrl + shift + P` og søke etter `clone`.
 Da vil du få opp følgende meny
 
 ![Bilde av vinduet for å klone et repo til datamaskinen
-din](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-clone.png)
+din](/images/atom/atom-clone.png)
 
 Hvor du bytter ut BRUKERNAVN med brukernavnet ditt på GitHub. Du kan selvsagt
 bestemme selv hvor du vil lagre prosjektet ditt.
@@ -129,7 +129,7 @@ Alternativt kan vi bruke terminalen vi nettopp installerte. Pass på at du er na
 
 ![Bilde som viser hvordan terminalen kan brukes til å klone et repo til
 datamskinen
-din](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-clone-terminal.png)
+din](/images/atom/atom-clone-terminal.png)
 
 Obs! Det kan være du får noen feilmeldinger enten at du ikke har riktige
 rettigheter eller at du ikke har valgt Git-brukernavn og epost. For å løse disse
@@ -145,14 +145,14 @@ som et nytt prosjekt. Her kan vi velge en av disse to fremgangsmåtene:
 - velge `Add Project Folder` fra `fil`-menyen.
 
 ![Skjermbilde av Atom i
-bruk](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-faktisk-jobbing.png)
+bruk](/images/atom/atom-faktisk-jobbing.png)
 
 Bildet over viser en fil under behandling i prosjektet. Før vi gjør endringer i
 en fil bør vi bytte til en ny _branch_, eller gren, slik at arbeidet er mer
 oversiktlig. Igjen så kan dette gjøres enkelt fra hurtigmenyen
 
 ![Bilde som viser søk etter "branch" i hurtigmenyen i
-Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-branch-git.png)
+Atom](/images/atom/atom-branch-git.png)
 
 eller ved å åpne terminalen og skrive
 
@@ -175,7 +175,7 @@ at du alltid ved hvilke linjer som er for lange. På bildet under ser du at linj
 for linjenumre til venstre.
 
 ![Bilde av en for lang linje med tekst i
-Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-long-line.png)
+Atom](/images/atom/atom-long-line.png)
 
 Heldigvis har Atom en pakke kalt `autoflow`. Det eneste formålet til denne
 pakken er å bryte lange linjer. Den er installert som standard, flaks! For å
@@ -183,14 +183,14 @@ formatere et langt avsnitt er det nok å ha markøren inne i avsnittet og trykke
 `ctrl + shift + Q`.
 
 ![Bilde av en lang tekst i Atom som er delt på flere
-linjer](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-long-line-fixed.png)
+linjer](/images/atom/atom-long-line-fixed.png)
 
 En annen hurtigtast du gjerne kan gjøre deg kjent med er `ctrl + shift + T`. Den
 gjør at du kan søke gjennom prosjektet ditt etter relevante filer, i stedet for
 å måtte navigere gjennom mappehierarkiet til venstre.
 
 ![Bilde av søkefunksjonen i
-Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-quick-search.png)
+Atom](/images/atom/atom-quick-search.png)
 
 En annen hurtigtast som er nyttig er `ctrl + shift + M`. Den gjør at du får opp
 en ny fane der du ser hvordan Markdown-filen din ser ut i sanntid.
@@ -203,17 +203,17 @@ søke etter `themes` i hurtigmenyen eller direkte bruke `ctrl + ,` for å hoppe
 til innstillinger. Menyen ser slik ut
 
 ![Bilde av temainnstillinger i
-Atom](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-themes.png)
+Atom](/images/atom/atom-themes.png)
 
 **UI:** _Perfect Dark_, **Syntax:** _Perfect Dark_
 
 ![Bilde av Atom med Perfect
-dark-temaet](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-jobbing-perfect-dark.png)
+dark-temaet](/images/atom/atom-jobbing-perfect-dark.png)
 
 **UI:** _Perfect Dark_, **Syntax:** _Solarized Dark_
 
 ![Bilde av Atom med Solarized
-dark-temaet](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-jobbing-perfect-dark-solarized.png)
+dark-temaet](/images/atom/atom-jobbing-perfect-dark-solarized.png)
 
 Det er og mulig å laste ned egne temaer fra nettet, for eksempel Dracula-temaet
 som er vist under.
@@ -221,4 +221,4 @@ som er vist under.
 **UI:** _Perfect Dark_, **Syntax:** _Dracula_
 
 ![Bilde av Atom med
-Dracula-temaet](https://github.com/Oisov/wiki-LKK/blob/master/Atom/atom-jobbing-perfect-dark-dracula.png)
+Dracula-temaet](/images/atom/atom-jobbing-perfect-dark-dracula.png)
