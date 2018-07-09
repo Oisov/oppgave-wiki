@@ -1,5 +1,7 @@
 
-[[/images/kodeklubb-byggeren/node-yarn-logo.png|Logo til node og yarn]]
+<p align="center">
+<img border="0" alt="W3Schools" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/kodeklubb-byggeren/node-yarn-logo.png" height="150t">
+</p>
 
 
 # Kodeklubb byggeren
