@@ -1,18 +1,10 @@
-<p align="center">
-<a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/startside/LKK-Logo_2.png" 
-width="480">
-</a>
-</p>
 
 <p align="center">
 <a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/startside/kodeklubben.png" 
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/startside/LKK.png" 
 width="480">
 </a>
 </p>
-
-[[[/images/startside/LKK_small_logo.png|LKK's logo med lenke til oppgavesammlingen]]](http://oppgaver.kidsakoder.no/)
 
 
 # Introduksjon 
