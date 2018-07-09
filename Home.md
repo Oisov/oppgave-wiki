@@ -1,6 +1,6 @@
 <p align="center">
 <a href="http://oppgaver.kidsakoder.no/">
-<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/startside/LKK_logo.png" 
+<img border="0" alt="LKK's logo med lenke til oppgavesammlingen" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/startside/LKK_logo_2.png" 
 width="480">
 </a>
 </p>
