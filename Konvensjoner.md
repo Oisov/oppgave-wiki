@@ -1,4 +1,6 @@
 
+[[/images/konvensjoner/xkcd.png|Tegneserie fra XKCD om konvensjoner og koding]]
+
 
 # Konvensjoner for kode og tekst
 
@@ -17,7 +19,7 @@ editorer, og lettere å sammenlikne filer.
 
 Stilguiden er lite streng. Du trenger ikke finkjemme stilguiden før du foreslår
 noe. Om noe er viktig å få med seg, får du tilbakemelding på det når du legger
-inn _pull request_. 
+inn _pull request_.
 
 ## Hvorfor akkuratt disse konvensjonene?
 
@@ -50,15 +52,15 @@ pusterom.
 
 
   # Formatering av Markdown-filer
-  
+
   ## Underoverskrift
 
   - Bruk `-` for punktlister
-  
+
   - [ ] Første sjekkpunkt
-  
+
   - [ ] Andre sjekkpunkt
-  
+
   ```
 
   Ikke foretrukket:
@@ -88,10 +90,10 @@ pusterom.
   ```
 
   - Automatisk brytning av linjer i Emacs: `M-q` eller `M-x auto-fill-mode`
-  
+
   - Automatisk brytning av linjer i Atom: `C-S-q` med
     [Autoflow](https://github.com/atom/autoflow) (innebygget)
-    
+
   - Automatisk brytning av linjer i Vim: `gqq`
 
 
@@ -114,7 +116,7 @@ Arbeidsflyt for å legge til nye oppgaver med Git:
 
 1. Sjekk ut siste versjon av branchen `master` på
    `git@github.com:kodeklubben/oppgaver.git`
-   
+
 2. Lag en ny branch med navn som beskriver temaet du skal legge til
 
 3. Spor endringene dine i én eller flere commits
