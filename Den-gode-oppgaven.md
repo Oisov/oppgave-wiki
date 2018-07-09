@@ -3,8 +3,8 @@
 # Den gode oppgaven
 
 Når du skriver en oppgave som skal legges ut på oppgavesidene må du følge denne
-malen. Slik blir utformingen på oppgavene mest mulig lik. På siden [[Konvensjoner]] 
-ser du hvordan vi ønsker at markdown-koden skal skrives.
+malen. Slik blir utformingen på oppgavene mest mulig lik. På siden
+[[Konvensjoner]] ser du hvordan vi ønsker at markdown-koden skal skrives.
 
 Rammen for oppgaven er en YAML-header, altså informasjon _om_ oppgaven,
 oppgaveteksten med figurer, og en lærerveiledning som forklarer _hvordan_ en
@@ -20,11 +20,13 @@ følgende være med:
 
 - [ ] Tittel på oppgavene.
 
-- [ ] Navn på den som har skrevet oppgaven, eventuelt hvem som skrev den originalt.
+- [ ] Navn på den som har skrevet oppgaven, eventuelt hvem som skrev den
+  originalt.
 
 - [ ] Anbefalt nivå (introduksjon-begynner-erfaren-ekspert).
 
-- [ ] Språk ([ISO 639-1](https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)).
+- [ ] Språk
+  ([ISO 639-1](https://no.wikipedia.org/wiki/Liste_over_ISO_639-1-koder)).
 
 Et eksempel på YAML-header blir da
 
@@ -95,7 +97,7 @@ ekspertoppgave kan du kanskje droppe noen av tipsene og kodeeksemplene, mens i
 en nybegynneroppgave må du skrive nesten all koden slik at brukeren kan
 sammenligne sin egen kode med noe som helt sikkert fungerer.
 
-## lærerveiledning
+## Lærerveiledning
 
 I tillegg til oppgavene ønsker vi å ha lærerveiledninger til hver enkelt. Denne
 kan inneholde mer informasjon om hva som må gjøres på forhånd, anbefalt
@@ -105,4 +107,3 @@ møter motstand i oppgaven, så kan du skrive hvordan du løste det.
 Dessuten ønsker vi å informere om eventuelle kompetansemål i læreplanene som kan
 oppfylles ved hjelp av hver enkelt oppgave. Det skrives i lærerveiledningen. Se
 [[Hvordan skrive en lærerveiledning]] for mer informasjon.
-
