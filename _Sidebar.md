@@ -1,7 +1,7 @@
 - [Guide for å bidra til LKKs oppgavesamling](./Home)
 - Git
   * [Komme i gang](./Komme-i-gang-med-Git)
-  * [For viderekomne](./Git-for-viderekommende)
+  * [For viderekomne](./Git-for-viderekomne)
 - [Bygge oppgavesidene lokalt](./Bygge-oppgavesidene-lokalt)
 - Tekstredigeringsverktøy
   * [Atom](./Introduksjon-til-Atom)
@@ -13,3 +13,4 @@
 - Lærerveiledninger
    * [Hvordan bruke](./Hvordan-bruke-en-l%C3%A6rerveiledning)
    * [Hvordan skrive](./Hvordan-skrive-en-l%C3%A6rerveiledning)
+   * [Kodemal](./Kodemal-l%C3%A6rerveiledning)

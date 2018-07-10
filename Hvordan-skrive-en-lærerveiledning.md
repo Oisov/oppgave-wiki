@@ -3,8 +3,9 @@
 # Hvordan skrive en lærerveiledning?
 
 Dette er en beskrivelse av hvordan en lærerveiledning er bygd opp, og hvordan vi
-skriver markdown-filen. Kodemalen finner du her (lenke). Eksempel på en ferdig
-lærerveiledning finner du her.
+skriver markdown-filen. [[Kodemalen finner du her|Kodemal-lærerveiledning]].
+Eksempel på en ferdig lærerveiledning finner du
+[her](http://oppgaver.kidsakoder.no/scratch/astrokatt/README).
 
 De delene som er merket med stjerne (*) må fylles ut med innhold. Resten er
 sterkt anbefalt, men ikke et krav, og det kan benyttes en standardtekst.

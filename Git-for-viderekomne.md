@@ -17,7 +17,7 @@ Den første tingen du må gjøre etter du har installert Git er å sette
 brukernavnet og e-postadressen din. Dette er viktig fordi hver *commit* bruker
 denne informasjonen som en digital signatur.
 
-[[/images/git-viderekommende/git-username.png|Hva som skjer når du ikke setter brukernavn]]
+[[/images/git-viderekomne/git-username.png|Hva som skjer når du ikke setter brukernavn]]
 
 Å sette brukernavn og e-post kan gjøres slik:
 
@@ -113,31 +113,31 @@ utklippstavlen.
 2. Øverst på GitHub-nettsiden finner du profilbildet ditt, trykker på det og
 velger "*Settings*".
 
-  [[/images/git-viderekommende/userbar-account-settings.png|Authentication keys]]
+  [[/images/git-viderekomne/userbar-account-settings.png|Authentication keys]]
 
 3. I sidemenyen på brukeren din velger du **SSH and GPG keys**.
 
-  [[/images/git-viderekommende/settings-sidebar-ssh-keys.png|Authentication keys]]
+  [[/images/git-viderekomne/settings-sidebar-ssh-keys.png|Authentication keys]]
 
 4. Klikk **New SSH key** eller **Add SSH key**.
 
-  [[/images/git-viderekommende/ssh-add-key.png|SSH Key button]]
+  [[/images/git-viderekomne/ssh-add-key.png|SSH Key button]]
 
 5. I "*Title*"-feltet skriver du et beskrivende navn for den nye nøkkelen. Hvis
 du bruker din personlige Mac kan du for eksempel kalle den "Min MacBook Air".
 
 6. Lim inn nøkkelen din inn i "*Key*"-feltet.
 
-  [[/images/git-viderekommende/ssh-key-paste.png|The Add key button]]
+  [[/images/git-viderekomne/ssh-key-paste.png|The Add key button]]
 
 7. Klikk **Add SSH key**
 
-  [[/images/git-viderekommende/ssh-add-key.png|Sudo mode dialog]]
+  [[/images/git-viderekomne/ssh-add-key.png|Sudo mode dialog]]
 
 8. Nå dukker det kanskje opp en meldingsboks som ber deg bekrefte
 GitHub-passordet ditt.
 
-  [[/images/git-viderekommende/sudo-mode-popup.png|Sudo mode dialog]]
+  [[/images/git-viderekomne/sudo-mode-popup.png|Sudo mode dialog]]
 
 # Grunnleggende Git fra terminalen
 
@@ -211,7 +211,7 @@ for å gjøre den klar for deling med resten.
 Bildet under illustrerer arbeidsflyten i Git mellom din datamaskin, og din
 _fork_.
 
-[[/images/git-viderekommende/git_workflow_detailed.png|Detaljert arbeidsflyt]]
+[[/images/git-viderekomne/git_workflow_detailed.png|Detaljert arbeidsflyt]]
 
 Det er også mulig å _unstage_ en fil ved å bruke `git checkout FILNAVN`.
 
@@ -241,7 +241,7 @@ Til slutt kan vi dytte disse endringene opp på vår _fork_ på nettet
 
     git push
 
-[[/images/git-viderekommende/git.png|Viser eksempel på git i praksis]]
+[[/images/git-viderekomne/git.png|Viser eksempel på git i praksis]]
 
 
 # Noen tips og triks
