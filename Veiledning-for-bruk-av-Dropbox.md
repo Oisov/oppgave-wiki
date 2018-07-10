@@ -3,7 +3,7 @@
 width="480">
 </p>
 
-# Introduksjon
+# Veiledning for bruk av Dropbox
 
 Rundt omkring i Norge finnes det enormt mange kreative, flinke og engasjerte
 lærere. Kanskje du er en av dem? LKK har en Dropbox-mappe med formål å lage et
@@ -19,7 +19,7 @@ oppgavemalen. Jo mer informasjon den inneholder ([se
 under](#fra-dropbox-til-oppgave)), jo enklere er den jobben, og jo større er
 sjansen for at noen vil gjøre det.
 
-## Krav 
+## Krav
 
 For at det skal være enkelt å dele er det få krav til innholdet i det du deler.
 Hele poenget er å i størst mulig grad samle forskjellige ideer, oppgaver og

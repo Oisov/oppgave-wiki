@@ -1,6 +1,6 @@
 
 
-# Hvordan lage en lærerveiledning?
+# Hvordan skrive en lærerveiledning?
 
 Dette er en beskrivelse av hvordan en lærerveiledning er bygd opp, og hvordan vi
 skriver markdown-filen. Kodemalen finner du her (lenke). Eksempel på en ferdig
@@ -10,7 +10,7 @@ De delene som er merket med stjerne (*) må fylles ut med innhold. Resten er
 sterkt anbefalt, men ikke et krav, og det kan benyttes en standardtekst.
 
 
-# Om oppgaven*
+## Om oppgaven*
 
 I denne delen gis det en kort introduksjon til oppgavens innhold og formål, ca.
 1-2 setninger.
@@ -29,14 +29,14 @@ kan passe til, hvilke tema som dekkes og hvor lang tid oppgaven tar.
   oppgavene er laget for å passe i en dobbelttime.
 
 
-# Kompetansemål*
+## Kompetansemål*
 
 I denne delen listes det opp alle aktuelle kompetansemål. Kopier kompetansemål
 fra aktuell læreplan og merk med fag og trinn. Det er veldig mange kompetansemål
 som kan passe til nesten alle oppgaver, så her er det viktig å være så spesifikk
 som mulig. Unngå de mest generelle målene.
 
-# Læringsmål*
+## Læringsmål*
 
 I denne delen brytes kompetansemålene ned til læringsmål. Start alltid med
 “eleven kan forklare/bruke/lage/…” Vurderingskriterier Dersom du har konkrete
@@ -45,21 +45,21 @@ den generelle teksten i kodemalen om at læreren selv bør lage kriterier basert
 på sine egne læringsmål.
 
 
-# Forutsetninger og utstyr*
+## Forutsetninger og utstyr*
 
 * **Forutsetninger:** Dersom det er noen anbefalte forkunnskaper eller oppgaver
   som må gjøres i en viss rekkefølge informeres det om her.
 * **Utstyr:** Dersom det trengs noe spesielt utstyr informeres det om her.
 
 Her er det lurt å tenke på:
-* Hvilket utstyr er nødvendig? 
+* Hvilket utstyr er nødvendig?
 * Er det noen spesielle forutsetninger å ta hensyn til?
 * Er det noe læreren må sette seg spesielt godt inn i?
 * Hva læreren må ha tenkt på i forkant
 * Er det noe forarbeid læreren eller elevene må gjøre?
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. Ta for deg hvert enkelt steg, og skriv det som passer.
@@ -68,14 +68,13 @@ Dersom du ikke har noen tips eller erfaringer kan du bruke den generelle teksten
 som du finner i kodemalen.
 
 
-# Variasjoner
+## Variasjoner
 
 * Eventuelle forslag til variasjoner i nivå, utvikling av koden eller andre ting
 * Eventuelle ekstraoppgaver
 
 
-# Eksterne ressurser
+## Eksterne ressurser
 
 * Instruksjonsvideoer
 * Nettsider med interessant/relevant informasjon
-
