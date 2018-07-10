@@ -2,7 +2,7 @@
 [[/images/git/github-logo.png|Github sin logo]]
 
 
-# Hvordan bruke GitHub?
+# Introduksjon
 
 For å laste opp oppgaver til [kidsakoder.no](http://oppgaver.kidsakoder.no)
 bruker vi GitHub, ofte bare kalt Git. Dette er programvare som gir flere brukere
@@ -55,6 +55,14 @@ et _repo_, kort for _repository_.
 9. Endringene som brukeren gjorde i sin _branch_ er nå en del av _repo_-et.
 
 ## Komme i gang med Git
+
+Git er skjelettet som ligger til grunn for arbeidsflyten vi beskriver her. Det
+finnes en rekke ulike programmer (eller mer korrekt brukergrensesnitt) for å
+sammhandle med dette skjelettet, for eksempel gjennom en
+kommandolinje (terminal), et tekstredigeringsverktøy (Atom, Spacemacs) eller en
+skrivebordsklient (GitHub Desktop). Ønsker du å lære mer kan du trykke på
+lenkene i forrige setning, men for en nybegynner anbefaler vi 
+GitHub Desktop. Da den er en av de enkleste måtene å komme i gang med Git på.
 
 - [ ] Du må ha en bruker på [github.com](www.github.com).
 

@@ -143,8 +143,8 @@ utklippstavlen.
 
 # Grunnleggende git fra terminalen
 
-La oss igjen se på [[ oppsumeringen av hvordan git fungerer|
-Hvordan-bruke-GitHub#oppsummering ]], men denne gangen vil vi notere hvordan
+La oss igjen se på [[oppsumeringen av hvordan git fungerer|Komme-i-gang-med-Git#oppsummering]], 
+men denne gangen vil vi notere hvordan
 hvert steg kan gjøres direkte fra terminalen. Vi deler det i to steg:
 
 ## Hvordan sette opp Git første gang.
