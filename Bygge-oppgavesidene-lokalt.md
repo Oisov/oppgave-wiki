@@ -4,7 +4,7 @@
 </p>
 
 
-# LKK-byggeren
+# Bygg oppgavesidene på din egen datamaskin
 
 Arbeider du med større oppgaver, kan det ofte være lurt å bygge nettsidene for å
 se hvordan oppgaven vil se ut for barna. Det er fort gjort å gjøre en liten feil

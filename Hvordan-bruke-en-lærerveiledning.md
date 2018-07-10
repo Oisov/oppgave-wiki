@@ -6,7 +6,7 @@ beskrivelsen forklarer vi de ulike elementene i en lærerveiledning til dere som
 skal bruke veiledningene.
 
 
-# Om oppgaven
+## Om oppgaven
 
 Denne delen inneholder en kort introduksjon til oppgaven og forskjellige
 kategoriseringer. Kategoriseringene er som følger:
@@ -24,7 +24,7 @@ kategoriseringer. Kategoriseringene er som følger:
   oppgavene er laget for å passe i en dobbelttime.
 
 
-# Kompetansemål
+## Kompetansemål
 
 I denne delen listes det opp hvilke kompetansemål fra læreplanen som er passende
 til denne oppgaven. Her har vi gjort en vurdering av kompetansemålene, men du
@@ -33,7 +33,7 @@ kompetansemålene som er listet opp i én økt, men at du gjør et utvalg som pa
 til din time.
 
 
-# Læringsmål
+## Læringsmål
 
 I denne delen brytes kompetansemålene ned til læringsmål. Disse læringsmålene er
 forslag fra andre som har jobbet med oppgavene, og det finnes selvfølgelig mange
@@ -41,7 +41,7 @@ varianter og differensieringer. Du må gjerne gjøre dine egne vurderinger og la
 læringsmål som passer for ditt undervisningsopplegg.
 
 
-# Vurderingskriterier
+## Vurderingskriterier
 
 Det er mange måter å vurdere et programmeringsprosjekt på. På generell basis vil
 Kodeklubbens oppgaver være stegbasert, og skal derfor være tilrettelagt for at
@@ -67,18 +67,18 @@ lærerveiledningene.
   https://www.udir.no/laring-og-trivsel/vurdering/.
 
 
-# Forutsetninger og utstyr
+## Forutsetninger og utstyr
 
 I denne delen beskrives hvilke forutsetninger, utstyr og forberedelser som
 kreves til å gjennomføre oppgaven.
 
 * **Forutsetninger:** Dersom det er noen anbefalte forkunnskaper eller oppgaver
   som må gjøres i en viss rekkefølge informeres det om her.
-  
+
 * **Utstyr:** Dersom det trengs noe spesielt utstyr informeres det om her.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
 I denne delen blir oppgaven gjennomgått steg for steg. For hvert steg i oppgaven
 forklares ulike feil elevene ofte gjør, og tips til hvordan disse kan oppklares.
@@ -86,7 +86,7 @@ Denne delen er avhengig av at lærere som har gjennomført oppgaven i en klasse
 deler sine erfaringer, for eksempel i kommentarfeltet eller forumet.
 
 
-# Variasjoner
+## Variasjoner
 
 Her er det listet opp ulike variasjoner som kan utvide oppgaven. Enten kan det
 være for elever som blir tidlig ferdig, og trenger flere utfordringer, eller det
@@ -94,8 +94,7 @@ kan være en utvidelse av hele undervisningsopplegget. For eksempel dersom det e
 ønskelig å jobbe med prosjektet over lengre tid.
 
 
-# Eksterne ressurser 
+## Eksterne ressurser
 
 Der vi har tips om eksterne ressurser som kan brukes, så er disse lenket til
 her. Det kan for eksempel være Youtube-filmer eller andre nettsider.
-

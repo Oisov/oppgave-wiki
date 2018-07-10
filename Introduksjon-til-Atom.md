@@ -6,7 +6,7 @@
 
 
 
-# Introduksjon
+# Introduksjon til Atom
 
 En av de beste editorene å begynne å skrive oppgaver med er Atom. Fordelene er
 blant annet at det er svært enkelt å skreddersy for den enkelte, samt at Atom

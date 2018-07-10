@@ -10,7 +10,7 @@ Hurtiginstallasjon
 
     $ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
-# Hvorfor Spacemacs?
+# Introduksjon til Spacemacs
 
 Det finnes noen teksteditorer som du bruker i månedvis, og det finnes andre som
 du varer livet ut. Spacemacs havnet lett i den siste kategorien. I mange tiår
@@ -284,4 +284,3 @@ I tillegg trenger vi noen små endringer under `(defun dotspacemacs/user-config
       :ensure t
       :config
       (global-evil-surround-mode 1))
-
