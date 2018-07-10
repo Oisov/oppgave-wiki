@@ -36,21 +36,22 @@ et _repo_, kort for _repository_.
 2. Brukeren lagrer (kalt _clone_ på engelsk) sin _fork_ lokalt på sin
    datamaskin.
 
-2. En bruker lager en _branch_ i sin egen _fork_, og bytter til den.
+3. En bruker lager en _branch_ i sin egen _fork_, og bytter til den.
 
 4. Brukeren gjør endringer i en eller flere filer, eller legger til noe helt nytt.
 
-3. Brukeren kan _commit_-e endringer gjort i en _branch_,
+5. Brukeren kan _commit_-e endringer gjort i en _branch_,
 
 6. Når du er ferdig med å _commit_-e kan du _push_-e endringene til Internett for
    å gjøre den klar for deling med resten.
 
-6. Brukeren legger inn en _pull request_ (ofte forkortet PR) og ber om at
+7. Brukeren legger inn en _pull request_ (ofte forkortet PR) og ber om at
    endringene hun har gjort lokalt blir _merge_-t med _repo_-et.
 
   [[/images/git/git_workflow.png|Oversikt over arbeidsflyt med Git]]
 
-8. Alle kan se og kommentere på _PR_-en, før en administrator kan _merge_ filene.
+8. Alle kan se og kommentere på _PR_-en, før en administrator kan _merge_
+filene.
 
 9. Endringene som brukeren gjorde i sin _branch_ er nå en del av _repo_-et.
 
@@ -58,13 +59,13 @@ et _repo_, kort for _repository_.
 
 Git er skjelettet som ligger til grunn for arbeidsflyten vi beskriver her. Det
 finnes en rekke ulike programmer (eller mer korrekt brukergrensesnitt) for å
-sammhandle med dette skjelettet, for eksempel gjennom en
-kommandolinje (terminal), et tekstredigeringsverktøy (Atom, Spacemacs) eller en
-skrivebordsklient (GitHub Desktop). Ønsker du å lære mer kan du trykke på
-lenkene i forrige setning, men for en nybegynner anbefaler vi 
+sammhandle med dette skjelettet, for eksempel gjennom en kommandolinje
+(terminal), et tekstredigeringsverktøy (Atom, Spacemacs) eller en
+skrivebordsklient (GitHub Desktop). Ønsker du å lære mer kan du lese om dette på
+de andre sidene du finner i menyen til høyre, men for en nybegynner anbefaler vi
 GitHub Desktop. Da den er en av de enkleste måtene å komme i gang med Git på.
 
-- [ ] Du må ha en bruker på [github.com](www.github.com).
+- [ ] Du må ha en bruker på [github.com](https://github.com/).
 
 - [ ] Last ned [Git](https://git-scm.com/downloads) til datamaskinen din.
 
@@ -72,10 +73,6 @@ GitHub Desktop. Da den er en av de enkleste måtene å komme i gang med Git på.
 
 - [ ] Du trenger en editor å jobbe i, for eksempel [Atom](https://atom.io/) (for
       en grundigere innføring, se [[introduksjon til Atom]]).
-
-- [ ] For flere muligheter, for eksempel lokal bygging av nettsiden, må du også
-  installere [Node](https://nodejs.org/en/download/), men du kommer langt uten
-  dette også.
 
 Gå til [Kodeklubbens GitHub](https://github.com/kodeklubben/oppgaver), og klikk
 `fork` oppe i høyre hjørne. Da får du laget din egen kopi som du finner igjen på
@@ -111,9 +108,13 @@ _branch_-er lages ut fra `master`, slik at du alltid tar utgangspunkt i det som
 faktisk er den oppdaterte versjonen i _repo_-et.
 
 Nå er du klar til å opprette eller endre filer. Åpne tekstbehandlingsprogrammet
-du vil jobbe i, for eksempel [Atom](Introduksjon-til-Atom.md). Der kan du legge til
-`oppgaver`-mappa, som er den lokale kopien av _fork_-en din, som et prosjekt. Da
-har du alle mappene og filene du vil jobbe med lett tilgjengelig.
+du vil jobbe i, for eksempel [Atom](Introduksjon-til-Atom.md). Der kan du legge
+til `oppgaver`-mappa, som er den lokale kopien av _fork_-en din, som et
+prosjekt. Da har du alle mappene og filene du vil jobbe med lett tilgjengelig.
+
+For å unngå problemer i neste steg bør du alltid ha oppdatert
+`master`-_branch_-en din når du oppretter en ny _branch_. Dette ser du en
+beskrivelse av lengre ned på denne siden.
 
 ### Lage en ny oppgave
 
@@ -146,7 +147,7 @@ gjort, for eksempel `Laget ny oppgave om en katt i verdensrommet`. Om du ønsker
 branch]` og vent til det er gjort.
 
 Så trykker du `ctrl + P` for å _push_-e. Hvis du foretrekker å klikke kan du
-finne `Branch`i menylinjen og velge `Push` eller bare trykke `Publish branch`
+finne `Branch` i menylinjen og velge `Push` eller bare trykke `Publish branch`
 øverst i midten på skjermen. Nå blir det sendt til din _fork_ på nettet, og
 sammenlignet med det originale _repo_-et.
 
@@ -167,61 +168,20 @@ En del av poenget med å ville jobbe i Git er at flere kan jobbe sammen. Da må 
 også huske på å oppdatere din egen _fork_ med jevne mellomrom, slik at du har
 den nyeste versjonen av prosjektet. På GitHub-siden for _fork_-en din kan du se
 om det står `This branch is NN commits behind kodeklubben:master`. I så fall kan
-det være på tide å oppdatere.
+det være på tide å oppdatere. Dette gjør du helt enkelt i GitHub Desktop.
 
-Da du installerte Git ble også _Git Bash_ installert. Dette er en terminal du
-kan bruke i stedet for GitHub Desktop dersom du ønsker det. Gjennom denne er det
-også enkelt å oppdatere _fork_-en din.
+- [ ] Åpne programmet, og sørg for at du er i `master`-_branch_-en.
 
-- [ ] Åpne _Git Bash_
+- [ ] Trykk på knappen som viser `Fetch origin` øverst i midten av skjermen.
+  Vent til dataene er lastet ned. Det skal stå når du sist gjorde dette.
 
-- [ ] Bytt til riktig mappe med `cd MAPPEPLASSERING`, for eksempel
+- [ ] Så trykker du `ctrl + shift + P` for å _pull_-e dataene til din lokale
+  versjon, altså å slå sammen din `master` med den oppdaterte felles
+  `master`-_branch_-en. Alternativt finner du `Repository` i menylinjen og
+  `Pull` under denne.
 
-  ```
-  cd oppgaver
-  ```
+- [ ] Til slutt vil du _push_-e denne oppdaterte versjonen til din _fork_ på
+  nettet med `ctrl + P`. Alternativt finner du `Repository` i menylinjen og
+  `Push` under denne.
 
-  dersom du allerede er i mappen der mappen `oppgaver` er lagret.
-
-- [ ] Sørg for at det står `(master)` bak mappeplasseringen, altså at du jobber
-  i _branch_-en `master`. Hvis ikke må du skrive `git checkout master` for å
-  bytte til riktig _branch_.
-
-- [ ] Skriv
-
-  ```
-  git fetch upstream
-  ```
-
-  for å hente den nyeste versjonen av Kodelubbens _repo_. Den er nå lagret som
-  `upstream`.
-
-- [ ] Skriv
-
-  ```
-  git checkout
-  ```
-
-  for å få en liste over de ulike _remote repository_ som du har på datamaskinen
-  din. Du bør ha `origin` (ditt _repo_ som du jobber i) og `upstream` (som du
-  akkurat har opprettet).
-
-- [ ] Skriv
-
-  ```
-  git merge upstream/master
-  ```
-
-  for å legge inn de nye endringene fra `upstream` til `master`.
-
-- [ ] Nå er den lokale kopien (_clone_) av _fork_-en din oppdatert. For å
-  oppdatere _fork_-en på nett må du skrive
-
-  ```
-  git push
-  ```
-
-  og vente til den er lastet opp.
-
-- [ ] Gå til GitHub-siden for _fork_-en din og sjekk om det står at den er `up
-  to date with kodeklubben:master`. Da er alt i orden, og du kan jobbe videre!
+[[/images/git/update_repo.png|Bilde som viser toppen av vinduet i GitHub Desktop]]
