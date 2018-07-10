@@ -6,7 +6,7 @@
 - Tekstredigeringsverktøy
   * [Atom](./Introduksjon-til-Atom)
   * [Spacemacs](./Introduksjon-til-Spacemacs)
-  * [Stilguide for kode og tekst](./Konvensjoner)
+  * [Stilguide for kode og tekst](./Stilguide-for-kode-og-tekst)
 - Lage oppgaver
   * [Bruk av Dropbox](./Veiledning-for-bruk-av-Dropbox)
   * [Den gode oppgaven](./Den-gode-oppgaven)
