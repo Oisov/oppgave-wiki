@@ -1,4 +1,4 @@
-- [Guide for å bidra til LKKs oppgavesamling](./Guide-for-å-bidra-til-LKKs-oppgavesamlingt)
+- [Guide for å bidra til LKKs oppgavesamling](./Guide-for-å-bidra-til-LKKs-oppgavesamling)
 - Git
   * [Komme i gang](./Komme-i-gang-med-Git)
   * [For viderekomne](./Git-for-viderekommende)
