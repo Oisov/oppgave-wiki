@@ -49,7 +49,7 @@ pusterom.
   Foretrukket:
 
   ```markdown
-  _pull request_.
+  _Her er slutten på forrige avsnitt._
 
 
   # Formatering av Markdown-filer
@@ -67,7 +67,7 @@ pusterom.
   Ikke foretrukket:
 
   ```markdown
-  _pull request_.
+  _Her er slutten på forrige avsnitt._
 
   # Formatering av Markdown-filer
   ## Underoverskrift
