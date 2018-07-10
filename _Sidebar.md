@@ -13,3 +13,4 @@
 - Lærerveiledninger
    * [Hvordan bruke](./Hvordan-bruke-en-l%C3%A6rerveiledning)
    * [Hvordan skrive](./Hvordan-skrive-en-l%C3%A6rerveiledning)
+   * [Kodemal](./Kodemal-l%C3%A6rerveiledning)
