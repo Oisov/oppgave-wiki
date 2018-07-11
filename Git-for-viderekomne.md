@@ -12,7 +12,7 @@ height="200">
 
 Når du leser dette avsnittet antar vi at du allerede kan bruke Git, og at du har
 opprettet pull requests før. Dersom dette er ukjent anbefaler vi at du leser
-[[Komme-i-gang-med-Git]], som forklarer alle disse tingene.
+*[[Komme i gang med Git|Komme-i-gang-med-Git]]*, som forklarer alle disse tingene.
 
 Her skal vi se hvordan vi kan bruke Git fra terminalen, og hvordan vi løser noen
 vanlige problemer som kan dukke opp.
