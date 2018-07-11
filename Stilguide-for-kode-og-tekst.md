@@ -1,9 +1,10 @@
 
-[[/images/konvensjoner/xkcd.png|Tegneserie fra XKCD om konvensjoner og koding]]
+<a href="https://xkcd.com/1513/">
+<img border="0" alt="Tegneserie fra XKCD om konvensjoner og koding" src="https://github.com/Oisov/oppgave-wiki/blob/master/images/konvensjoner/xkcd.png">
+</a>
 
 
 # Stilguide for kode og tekst
-
 
 ## Hvorfor en stilguide?
 
@@ -48,7 +49,7 @@ pusterom.
   Foretrukket:
 
   ```markdown
-  _pull request_.
+  _Her er slutten på forrige avsnitt._
 
 
   # Formatering av Markdown-filer
@@ -66,7 +67,7 @@ pusterom.
   Ikke foretrukket:
 
   ```markdown
-  _pull request_.
+  _Her er slutten på forrige avsnitt._
 
   # Formatering av Markdown-filer
   ## Underoverskrift
