@@ -1,7 +1,7 @@
 
 <p align="center">
 <img border="0" alt="git alt logo"
-src="https://github.com/Oisov/oppgave-wiki/blob/master/images/git-viderekomne/git-internal-logo" 
+src="https://github.com/Oisov/oppgave-wiki/blob/master/images/git-viderekomne/git-internal-logo.png" 
 height="200">
 </p>
 
