@@ -11,7 +11,7 @@ se hvordan oppgaven vil se ut for barna. Det er fort gjort å gjøre en liten fe
 når en lager lister, skriver kodeblokker, eller bruker noen av Lær kidsa kodings
 egendefinerte titler.
 
-[[/images/kodeklubb-byggeren/localhost.png|Viser localhost, spacemacs, og Lær kidsa koding sin nettside]]
+[![Viser localhost, teksteditor, og Lær kidsa koding sin nettside](https://github.com/Oisov/oppgave/wiki/images/kodeklubb-byggeren/localhost.png "Viser localhost, teksteditor, og Lær kidsa koding sin nettside")](https://github.com/Oisov/oppgave/wiki/Bygge-oppgavesidene-lokalt/_edit)
 
 ## Komme i gang
 
@@ -38,10 +38,10 @@ burde det gå fint.
 
 ### Komme i gang med LKK-byggeren
 
-Når `node` and `yarn` er installert, bare skriv
+Når `node` and `yarn` er installert, bytt til mappen hvor din _fork_ av oppgave
+repoet ligger og skriv
 
 ```
-git clone https://github.com/kodeklubben/codeclub-viewer.git
 git clone https://github.com/kodeklubben/oppgaver.git
 cd codeclub-viewer
 yarn
@@ -49,6 +49,8 @@ yarn start
 ```
 
 i kommandolinjen. Deretter kan du åpne nettsiden http://localhost:8080.
+
+[![Bygging av kodeklubbens nettside fra terminalen](https://github.com/Oisov/oppgave/wiki/images/kodeklubb-byggeren/yarn-start.png "Bygging av kodeklubbens nettside fra terminalen")](https://github.com/Oisov/oppgave/wiki/images/kodeklubb-byggeren/yarn-start.png)
 
 MERK: Dersom du nylig endret versjonen av `node`, og du får en feilmelding under
 `yarn start` (eller `yarn build`), prøv å slette `node_modules`-mappen og kjør
