@@ -5,7 +5,7 @@
 # Introduksjon
 
 For å laste opp oppgaver til [kidsakoder.no](http://oppgaver.kidsakoder.no)
-bruker vi GitHub, ofte bare kalt Git. Dette er programvare som gir flere brukere
+bruker vi GitHub. Dette er nettside som gir flere brukere
 muligheten til å jobbe i et prosjekt samtidig, laste opp hver sine deler, og så
 sette alt sammen til ett felles prosjekt.
 
@@ -58,11 +58,12 @@ et _repo_, kort for _repository_.
 
 Git er skjelettet som ligger til grunn for arbeidsflyten vi beskriver her. Det
 finnes en rekke ulike programmer (eller mer korrekt brukergrensesnitt) for å
-sammhandle med dette skjelettet, for eksempel gjennom en
-kommandolinje (terminal), et tekstredigeringsverktøy (Atom, Spacemacs) eller en
-skrivebordsklient (GitHub Desktop). Ønsker du å lære mer kan du trykke på
-lenkene i forrige setning, men for en nybegynner anbefaler vi 
-GitHub Desktop. Da den er en av de enkleste måtene å komme i gang med Git på.
+sammhandle med dette skjelettet, for eksempel gjennom en kommandolinje
+([[terminalen|Git-for-viderekomne]]), et tekstredigeringsverktøy
+([[Atom|Introduksjon-til-Atom]], [[Spacemacs|Introduksjon-til-Spacemacs]]) eller
+en skrivebordsklient (GitHub Desktop). Ønsker du å lære mer kan du lese om dette
+på de andre sidene du finner i menyen til høyre, men for en nybegynner anbefaler
+vi GitHub Desktop. Da den er en av de enkleste måtene å komme i gang med Git på.
 
 - [ ] Du må ha en bruker på [github.com](www.github.com).
 
