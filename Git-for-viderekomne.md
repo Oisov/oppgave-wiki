@@ -246,7 +246,7 @@ vi kunne for eksempel ha brukt *kodeklubben* eller noe lignende i stedet.
 Konvensjonen er dog å kalle _repo_-et du har laget en _fork_ fra for
 *upstream*.
 
-  [[/images/git-viderekomne/git-list-remote.png|Viser listen av remotes i repo'et]]
+  [[/images/git-viderekomne/git-list-remotes.png|Viser listen av remotes i repo'et]]
 
 Nå kan vi hente inn endringene som eventuelt er gjort på Kodeklubbens _repo_,
 men som enda ikke ligger i _repo_-et vårt:
