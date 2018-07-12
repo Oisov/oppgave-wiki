@@ -97,7 +97,6 @@ pusterom.
 
   - Automatisk brytning av linjer i Vim: `gqq`
 
-
 ## Tekstfiler generelt
 
 Dette er typisk ting du kan sette opp teksteditoren din til å gjøre for deg.
@@ -109,62 +108,3 @@ Dette er typisk ting du kan sette opp teksteditoren din til å gjøre for deg.
 - Avslutt filen med en tom linje
 
 - Unngå mellomrom til høyre for teksten eller på tomme linjer
-
-
-## Versjonskontroll med Git
-
-Arbeidsflyt for å legge til nye oppgaver med Git:
-
-1. Sjekk ut siste versjon av branchen `master` på
-   `git@github.com:kodeklubben/oppgaver.git`
-
-2. Lag en ny branch med navn som beskriver temaet du skal legge til
-
-3. Spor endringene dine i én eller flere commits
-
-4. Lag pull request. Start gjerne navnet med `WIP - ` (work in progress) om du
-   vil ha tilbakemeldinger før du er helt ferdig.
-
-### En god branch
-
-Vi bør gjøre så lite som mulig i hver feature branch / pull request. Da er det
-lett å se hva som er gjort og unngå at det sniker seg inn feil.
-
-**Gode navn på brancher:**
-
-- `scratch-ny-felix-herbert`
-
-- `elm-ny-prov-i-nettleser`
-
-- `python-fiks-fargespill-lenke`
-
-En branch bør altså ha navn etter _temaet_ for endringen.
-
-Du kan endre navnet på branchen din med `git branch -m <gammeltnavn> <nyttnavn>`.
-
-### En god commit
-
-En commit bør være liten, men "koden skal kompilere". Det bør være mulig å komme
-tilbake til tidligere commits uten at alt er ødelagt, og se rekkefølgen ting er
-blitt gjort i.
-
-Commits bør ha sammendrag etter _hva som er gjort_. Sammendraget står på første
-linje. Commit-beskjeden ser da slik ut:
-
-```text
-Skrevet ny Elm-oppgave om HTML
-```
-
-Det er også mulig å utdype sammendraget. Videre tekst skal skrives under én tom
-linje. En commit-beskjed med sammendrag og utdypende tekst ser slik ut:
-
-```text
-Skrevet ny Elm-oppgave om HTML
-
-Oppgaven bruker `elm-lang.org/try` til å vise hvordan vi kan gjøre
-HTML-generering med Elm. Oppgaven gir innsikt i
-
-- Hvordan HTML er strukturer som et tre
-- Hvordan vi leser feilmeldinger
-- Hvordan vi kan se på andre eksempler.
-```

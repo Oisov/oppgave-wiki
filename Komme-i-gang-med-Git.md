@@ -38,12 +38,13 @@ et _repo_, kort for _repository_.
 
 3. En bruker lager en _branch_ i sin egen _fork_, og bytter til den.
 
-4. Brukeren gjør endringer i en eller flere filer, eller legger til noe helt nytt.
+4. Brukeren gjør endringer i en eller flere filer, eller legger til noe helt
+   nytt.
 
 5. Brukeren kan _commit_-e endringer gjort i en _branch_,
 
-6. Når du er ferdig med å _commit_-e kan du _push_-e endringene til Internett for
-   å gjøre den klar for deling med resten.
+6. Når du er ferdig med å _commit_-e kan du _push_-e endringene til Internett
+   for å gjøre den klar for deling med resten.
 
 7. Brukeren legger inn en _pull request_ (ofte forkortet PR) og ber om at
    endringene hun har gjort lokalt blir _merge_-t med _repo_-et.
@@ -81,15 +82,13 @@ din egen github-side.
 
 [[/images/git/create_fork.png|Skjermdump som viser hvor fork-knappen er]]
 
+## Arbeidsflyt i GitHub Desktop
+
 Åpne GitHub Desktop og logg inn. Klikk `clone repository` og velg oppgave-repoet
 du kopierte fra Kodeklubben. Da laster du ned en kopi av denne til datamaskinen
 din. Det er denne vi skal jobbe i videre. Merk deg hvor denne blir lagret!
 
 [[/images/git/clone_repository.png|Skjermdump som viser hvordan clone repository ser ut]]
-
-## Arbeidsflyt
-
-Her beskriver vi arbeidsflyten i Git.
 
 ### Lage en branch
 
@@ -116,6 +115,54 @@ prosjekt. Da har du alle mappene og filene du vil jobbe med lett tilgjengelig.
 For å unngå problemer i neste steg bør du alltid ha oppdatert
 `master`-_branch_-en din når du oppretter en ny _branch_. Dette ser du en
 beskrivelse av lengre ned på denne siden.
+
+#### En god branch
+
+Vi bør gjøre så lite som mulig i hver _branch_ eller _pull request_. Da er det
+lett å se hva som er gjort og unngå at det sniker seg inn feil.
+
+**Gode navn på brancher:**
+
+- `scratch-ny-felix-herbert`
+
+- `elm-ny-prov-i-nettleser`
+
+- `python-fiks-fargespill-lenke`
+
+En branch bør altså ha navn etter _temaet_ for endringen.
+
+Du kan endre navnet på branchen din med `git branch -m <gammeltnavn> <nyttnavn>`.
+
+#### En god commit
+
+Hver endring som sendes til _branchen_ (det kan være endring av flere filer)
+kalles en _commit_. En _commit_ bør være liten, men "koden skal kompilere",
+altså skal den være fullstendig i den forstand at den inneholder et minimum av
+det du ønsker å endre eller legge til. Det bør være mulig å komme tilbake til
+tidligere commits uten at alt er ødelagt, og se rekkefølgen ting er blitt gjort
+i.
+
+En _commit_ bør ha sammendrag etter _hva som er gjort_. Beskjeden du sender med
+en _commit_ ser da slik ut:
+
+```text
+Skrevet ny Elm-oppgave om HTML
+```
+
+Det er også mulig å utdype sammendraget. I så fall står sammendraget på første
+linje, og videre tekst skal skrives under én tom linje. En _commit_-beskjed med
+sammendrag og utdypende tekst ser slik ut:
+
+```text
+Skrevet ny Elm-oppgave om HTML
+
+Oppgaven bruker `elm-lang.org/try` til å vise hvordan vi kan gjøre
+HTML-generering med Elm. Oppgaven gir innsikt i
+
+- Hvordan HTML er strukturer som et tre
+- Hvordan vi leser feilmeldinger
+- Hvordan vi kan se på andre eksempler.
+```
 
 ### Lage en ny oppgave
 
