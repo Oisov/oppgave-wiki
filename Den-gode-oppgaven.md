@@ -3,15 +3,16 @@
 # Den gode oppgaven
 
 Når du skriver en oppgave som skal legges ut på oppgavesidene må du følge denne
-malen. Slik blir utformingen på oppgavene mest mulig lik. På siden
-[[Konvensjoner]] ser du hvordan vi ønsker at markdown-koden skal skrives.
+malen. Slik blir utformingen på oppgavene mest mulig lik. 
+Leser du [[stilguiden for kode og tekst|Stilguide-for-kode-og-tekst]] 
+ser du hvordan vi ønsker at markdown-koden skal skrives.
 
 Rammen for oppgaven er en YAML-header, altså informasjon _om_ oppgaven,
 oppgaveteksten med figurer, og en lærerveiledning som forklarer _hvordan_ en
 klasse kan jobbe med oppgaven.
 
 Når du har skrevet ferdig en oppgave med riktig formatering kan du sende den inn
-til oppgaverepoet på Github. Se [[Hvordan bruke GitHub]]
+til oppgaverepoet på Github. Se [[Hvordan bruke GitHub|Komme-i-gang-med-Git]].
 
 ## YAML-header
 
@@ -87,6 +88,36 @@ Du kan prøve å flytte den nye figuren rundt på skjermen.
 I tillegg til selve oppgaveteksten kan du legge til utfordringer `{.challenge}`,
 tips `{.protip}` eller ting å prøve ut `{.try}`. Til slutt i hvert steg bør du
 ha med en test av det som er gjort så langt, merket med `{.flag}`.
+
+### Nivå
+
+Det er viktig at vi informerer om hvilket nivå oppgaven er på. Det gir en idé
+til både den som skal gjøre oppgaven og eventuell lærer/veileder om oppgaven
+egner seg for den enkelte. Her finner du beskrivelsen som er lagt til grunn for
+nivåinndelingen vår.
+
+- `level: 1` **introduksjonsoppgave**: Alle uten programmeringskunnskap burde ha
+  mulighet til å følge oppgaven. Oppgaven burde være selvstendig, slik at man
+  ikke trenger å sjekke opp andre ressurser for tilleggsinformasjon. Oppgaven
+  kan gjerne ha kodeblokker som det ikke er meningen at eleven skal forstå, men
+  som viser hva som er mulig i programmeringsspråket. Kodeblokker kan gjerne
+  være fullstendige, slik at kopier og lim inn er tilstrekkelig for å komme seg
+  gjennom oppgaven.
+
+- `level: 2` **nybegynner**: Det antas at eleven kan bruke editoren og vet
+  hvordan koden kjøres. Bygg opp meget enkle utfordringer med nesten identiske
+  eksempler, slik at eleven ikke setter seg fast, samt at man unngår passiv
+  kopiering og lim inn.
+
+- `level: 3` **erfaren**: Eleven kan lage program og kjøre dem. Eleven kan løse
+  enkle problemer på egen hånd. Hjelp eleven å løse middels vanskelige problemer
+  med lignende eksempler. Link gjerne til eksterne ressurser som API i
+  `## Utfordring {.challenge}`, slik at eleven blir flink til å utforske.
+
+- `level: 4` **ekspert**: Eleven kan løse middels vanskelige problemer på egen
+  hånd. Hjelp eleven til å løse vanskelige problemer ved å foreslå søkeord og
+  linke til offisielle API-ressurser. Ikke gi kode som løser oppgaven uten
+  redigering.
 
 ### Oppmuntringer og tips
 
