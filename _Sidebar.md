@@ -10,6 +10,7 @@
 - Lage oppgaver
   * [Bruk av Dropbox](./Veiledning-for-bruk-av-Dropbox)
   * [Den gode oppgaven](./Den-gode-oppgaven)
+  * [Kodemal](./Kodemal-oppgave)
 - Lærerveiledninger
    * [Hvordan bruke](./Hvordan-bruke-en-l%C3%A6rerveiledning)
    * [Hvordan skrive](./Hvordan-skrive-en-l%C3%A6rerveiledning)
