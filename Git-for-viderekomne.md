@@ -27,8 +27,8 @@ denne informasjonen som en digital signatur.
 
 Å sette brukernavn og e-post kan gjøres slik:
 
-    $ git config --global user.name "John Doe"
-    $ git config --global user.email johndoe@example.com
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
 
 Du trenger bare å gjøre dette en gang når vi bruker `--global`, fordi dette gjør
 at Git alltid bruker denne informasjonen, uavhengig av hvilket prosjekt du
@@ -105,12 +105,12 @@ passord her.
 kommandolinjen. Hvordan dette gjøres varierer hårfint basert på plattformen du
 bruker
 
-| *Linux*                     | *Mac*                        | *Windows*                  |
-| -------------               | -------------                | ---                        |
-| `xclip < ~/.ssh/id_rsa.pub` | `pbcopy < ~/.ssh/id_rsa.pub` | `clip < ~/.ssh/id_rsa.pub` |
+    | *Linux*                     | *Mac*                        | *Windows*                  |
+    | -------------               | -------------                | ---                        |
+    | `xclip < ~/.ssh/id_rsa.pub` | `pbcopy < ~/.ssh/id_rsa.pub` | `clip < ~/.ssh/id_rsa.pub` |
 
-På Linux må du sannsynligvis installere `xclip` manuelt, for eksempel med `sudo
-apt-get install xclip` om du sitter på en Ubuntu-basert distro.
+    På Linux må du sannsynligvis installere `xclip` manuelt, for eksempel med `sudo
+    apt-get install xclip` om du sitter på en Ubuntu-basert distro.
 
 **Tips:** Dersom dette ikke fungerer kan du navigere deg til den hemmelige
 `.shh` mappen, åpne mappen i din favoritt-editor, og så kopiere teksten til
@@ -119,41 +119,43 @@ utklippstavlen.
 2. Øverst på GitHub-nettsiden finner du profilbildet ditt, trykker på det og
 velger "*Settings*".
 
-  [[/images/git-viderekomne/userbar-account-settings.png|Authentication keys]]
+    [[/images/git-viderekomne/userbar-account-settings.png|Authentication keys]]
 
 3. I sidemenyen på brukeren din velger du **SSH and GPG keys**.
 
-  [[/images/git-viderekomne/settings-sidebar-ssh-keys.png|Authentication keys]]
+    [[/images/git-viderekomne/settings-sidebar-ssh-keys.png|Authentication keys]]
 
-4. Klikk **New SSH key** eller **Add SSH key**.
+4. Trykk **New SSH key** eller **Add SSH key**.
 
-  [[/images/git-viderekomne/ssh-add-key.png|SSH Key button]]
+    [[/images/git-viderekomne/ssh-add-key.png|SSH Key button]]
 
 5. I "*Title*"-feltet skriver du et beskrivende navn for den nye nøkkelen. Hvis
 du bruker din personlige Mac kan du for eksempel kalle den "Min MacBook Air".
 
 6. Lim inn nøkkelen din inn i "*Key*"-feltet.
 
-  [[/images/git-viderekomne/ssh-key-paste.png|The Add key button]]
+    [[/images/git-viderekomne/ssh-key-paste.png|The Add key button]]
 
-7. Klikk **Add SSH key**
+7. Trykk **Add SSH key**
 
-  [[/images/git-viderekomne/ssh-add-key.png|Sudo mode dialog]]
+    [[/images/git-viderekomne/ssh-add-key.png|Sudo mode dialog]]
 
 8. Nå dukker det kanskje opp en meldingsboks som ber deg bekrefte
 GitHub-passordet ditt.
 
-  [[/images/git-viderekomne/sudo-mode-popup.png|Sudo mode dialog]]
+    [[/images/git-viderekomne/sudo-mode-popup.png|Sudo mode dialog]]
 
 # Grunnleggende Git fra terminalen
 
-Igjen ser vi på [[oppsumeringen av hvordan Git
-fungerer|Komme-i-gang-med-Git#oppsummering]], men denne gangen skal vi se
+Igjen ser vi på [[oppsumeringen av hvordan Git fungerer|Komme-i-gang-med-Git#oppsummering]], 
+men denne gangen skal vi se
 hvordan hvert steg kan gjøres direkte fra terminalen. Vi deler det i to steg:
 
 ## Hvordan sette opp Git første gang.
 
 1. Hver bruker som ønsker å bidra lager en _fork_, sin egen kopi av _repo_-et.
+
+[[/images/git/create_fork.png|Skjermdump som viser hvor fork-knappen er]]
 
 2. Brukeren lagrer (kalt _clone_ på engelsk) sin _fork_ lokalt på sin
    datamaskin.
@@ -174,42 +176,47 @@ hvordan hvert steg kan gjøres direkte fra terminalen. Vi deler det i to steg:
 
 ## Daglig bruk
 
+Nå er du klar til å bidra! Det første steget er å navigere seg inn i mappen 
+til din _fork_, f.eks `cd oppgaver` fra terminalen. 
+
 1. En bruker lager en _branch_ i sin egen _fork_, og bytter til den.
 
         git checkout -b NAVN_PÅ_NY_BRANCH
 
-   Alternativt om du ønsker å bytte til en eksisterende _branch_ skriver du
+     Alternativt om du ønsker å bytte til en eksisterende _branch_ skriver du
 
         git checkout NAVN_PÅ_EKSISTERENDE_BRANCH
 
 2. Brukeren gjør endringer i en eller flere filer, eller legger til noe helt
-   nytt. Ønsker du å sjekke hvilke endringer som er gjort, og eventuelt hvilke
-   filer som er _staget_, kan du skrive
+nytt. Ønsker du å sjekke hvilke endringer som er gjort, og eventuelt hvilke
+filer som er _staget_, kan du skrive
 
         git status
 
 3. Brukeren kan _commit_-e endringer gjort i en _branch_,
 
-  Før du er klar til å _commit_-e endringene må du legge dem til i _commit_-en.
-  For eksempel
+    Før du er klar til å _commit_-e endringene må du legge dem til i _commit_-en.
+    For eksempel
 
         git add NY_FIL.md
 
-  Her er det mye forskjellig du kan gjøre. Du kan bruke `git add .` for å legge
-  til alle filer. Koden `git add *.md` vil legge til alle `.md`-filer. Når du
-  har _staget_ de riktige filene skriver du
+    Her er det mye forskjellig du kan gjøre. Du kan bruke `git add .` for å legge
+    til alle filer. Koden `git add *.md` vil legge til alle `.md`-filer. Når du
+    har _staget_ de riktige filene skriver du
 
         git commit -m "MELDING"
 
-    En god melding forklarer i en kort setning hvilke endringer som er gjort.
+
+    En god _commit_ forklarer i korte trekk hvilke endringer som er gjort.
 
 4. Når du er ferdig med å _commit_-e kan du _push_-e endringene til Internett
 for å gjøre den klar for deling med resten.
 
         git push -u <remote> <branch>
 
-   Hvor `remote` som regel er `origin` om du ikke har gjort noen vesentlige
-   endringer, mens `branch` er grenen du har _commit_-et til.
+
+     Hvor `remote` som regel er `origin` om du ikke har gjort noen vesentlige
+     endringer, mens `branch` er grenen du har _commit_-et til.
 
 5. Brukeren legger inn en _pull request_ (ofte forkortet PR) og ber om at
    endringene hun har gjort lokalt blir _merge_-t med _repo_-et.
@@ -217,21 +224,29 @@ for å gjøre den klar for deling med resten.
 Bildet under illustrerer arbeidsflyten i Git mellom din datamaskin, og din
 _fork_.
 
-[[/images/git-viderekomne/git_workflow_detailed.png|Detaljert arbeidsflyt]]
+  [[/images/git-viderekomne/git_workflow_detailed.png|Detaljert arbeidsflyt]]
 
 Det er også mulig å _unstage_ en fil ved å bruke `git checkout FILNAVN`.
 
 ## Hvordan holde forken oppdatert
 
-Som forklart i stegene for å sette opp Git for første gang, så må vi først passe
-på at Kodeklubbens repo ligger inne som `remote` med
+Det kan ende andre bidragsyterene legger inn nye oppgaver eller andre endringer
+til kodeklubbens repo. Det er derfor viktig at du husker og oppdatere din _fork_
+før du begynner og arbeide, og før du _pusher_ nye endringer. Som forklart
+ovenfor, må vi først passe på at Kodeklubbens repo ligger inne som `remote` med
 
-    git remote add upstream git@github.com:kodeklubben/oppgaver.git
+    git remote -v 
+
+Dersom det ikke allerede ligger inne kan vi legge det til via
+
+    remote add upstream git@github.com:kodeklubben/oppgaver.git
 
 **Merk:** Det er i utgangspunktet ingenting spesielt med navnet *upstream*, og
 vi kunne for eksempel ha brukt *kodeklubben* eller noe lignende i stedet.
 Konvensjonen er dog å kalle _repo_-et du har laget en _fork_ fra for
 *upstream*.
+
+  [[/images/git-viderekomne/git-list-remote.png|Viser listen av remotes i repo'et]]
 
 Nå kan vi hente inn endringene som eventuelt er gjort på Kodeklubbens _repo_,
 men som enda ikke ligger i _repo_-et vårt:
@@ -272,8 +287,9 @@ Du kan i utgangspunktet ha så mange poser eller staging areas _stashed_ som du
 vil. Ved å bruke `pop` så slipper du ut den siste du tok inn.
 
 **Branch i Branch:** Husk å *alltid bytte til master før du oppretter nye
-branches*! Det kan ofte gå raskt i svingene og du kan ende opp med branches
-inni branches. Dette skaper ofte mye hodebry. Da er det enkleste om du bare lagrer endringene du har gjort utenfor prosjektet, og så slette branchen med
+branches*! Det kan ofte gå raskt i svingene og du kan ende opp med branches inni
+branches. Dette skaper ofte mye hodebry. Da er det enkleste om du bare lagrer
+endringene du har gjort utenfor prosjektet, og så slette branchen med
 
     git branch -d branch_name
 
