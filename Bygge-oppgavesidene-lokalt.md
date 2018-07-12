@@ -42,7 +42,7 @@ Når `node` and `yarn` er installert, bytt til mappen hvor din _fork_ av oppgave
 repoet ligger og skriv
 
 ```
-git clone https://github.com/kodeklubben/oppgaver.git
+git clone https://github.com/kodeklubben/codeclub-viewer.git
 cd codeclub-viewer
 yarn
 yarn start
